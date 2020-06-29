@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-               input('do yu want to continue')
+               input('do yu want to continue?')
         }
     }
 }
